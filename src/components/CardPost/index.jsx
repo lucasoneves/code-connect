@@ -6,7 +6,7 @@ export const CardPost = ({ post }) => {
     <article>
       <header>
         <figure>
-          <Image src={post.cover} width={450} height={180} alt={post.title} />
+          <Image src={post.cover} width={450} height={180} alt={post.title} priority={true} />
         </figure>
       </header>
       <section>
@@ -14,7 +14,7 @@ export const CardPost = ({ post }) => {
         <p>{post.body}</p>
       </section>
       <footer>
-        <Avatar imgSrc={post.author.avatar} name={post.author.username} altImg={post.author.userName} />
+        <Avatar imgSrc={post.author.avatar} name={post.author.username} altImg={post.author.username} />
       </footer>
     </article>
   );
