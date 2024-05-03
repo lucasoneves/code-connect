@@ -1,13 +1,13 @@
 import { Aside } from '@/components/Aside';
-import './globals.css'
 import { Work_Sans } from 'next/font/google';
+import './globals.css'
 
 export const metadata = {
   title: "Code Connect",
-  description: "A socal network for devs",
+  description: "A social network for devs",
 };
 
-const worksans = Work_Sans({ subsets: ['latin'] })
+const worksans = Work_Sans({ subsets: ['latin'], weight: ["400", "600"]})
 
 export default function RootLayout({ children }) {
   return (

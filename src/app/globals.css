@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
 body {
@@ -17,5 +19,12 @@ body {
   padding: 0 15px;
   display: flex;
   gap: 20px;
-  height: 100vh;
+  min-height: 100vh;
+}
+
+.posts-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minMax(350px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
 }
