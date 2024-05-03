@@ -18,11 +18,25 @@ const post = {
   },
 };
 
-export default function Home() {
+async function getAllPosts() {
+  const response = await fetch('http://localhost:3042/posts');
+  if (!response.ok) {
+    console.log("Ops...não conseguimos trazer os dados")
+  }
+
+  return response.json();
+}
+
+export default async function Home() {
+  const posts = await getAllPosts();
   return (
     <main>
       <h2>Code Connect</h2>
-      <CardPost post={post} />
+      <div className="posts-container">
+        {posts.map(post => {
+          return <CardPost post={post} />
+        })}
+      </div>
     </main>
   );
 }
