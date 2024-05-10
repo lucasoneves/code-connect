@@ -28,3 +28,8 @@ body {
   gap: 20px;
   margin-top: 20px;
 }
+
+.main-link {
+  color: #BFFFC3;
+  text-decoration: underline;
+}
