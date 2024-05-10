@@ -1,0 +1,28 @@
+
+
+.post-container {
+  --radius: 12px;
+  --margin: 12px;
+  --padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 100%;
+  background-color: #171d1f;
+  padding: var(--padding);
+  border-radius: var(--radius);
+}
+
+.post-content {
+  background-color: rgb(231, 231, 231);
+  margin-top: calc(var(--margin) * 3);
+  color: black;
+  padding: var(--padding);
+  border-radius: var(--radius);
+}
+
+.post-cover {
+  height: fit-content;
+  border-radius: var(--radius);
+  margin: var(--margin) 0;
+  width: 100%;
+}
