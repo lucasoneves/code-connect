@@ -1,19 +1,17 @@
 import { CardPost } from "@/components/CardPost";
 import logger from "@/logger";
 import Link from "next/link";
+import db from "../../prisma/db";
 
 async function getAllPosts(page) {
-  const response = await fetch(
-    `http://localhost:3042/posts?_page=${page}&_per_page=6`
-  );
-  if (!response.ok) {
-    logger.error("Ops...não conseguimos trazer os dados");
-    return [];
+  try {
+    const posts = await db.post.findMany();
+    logger.info("Posts: " + posts)
+    return { data: posts, prev: null, next: null}
+  } catch (error) {
+    logger.error('Falha ao obter posts', { error});
+    return { data: [], prev: null, next: null};
   }
-
-  logger.info("Posts obtidos com sucesso");
-
-  return await response.json();
 }
 
 export default async function Home({ searchParams }) {
