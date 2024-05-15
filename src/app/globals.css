@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+:root {
+  --alert-color: #81FE88;
+}
+
 body {
   background: linear-gradient(180deg, #0e1112 0%, #00090e 100%);
   margin: 0;
@@ -33,3 +37,4 @@ body {
   color: #BFFFC3;
   text-decoration: underline;
 }
+

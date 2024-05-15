@@ -1,0 +1,23 @@
+.wrapper-error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  .title {
+    color: var(--alert-color);
+  }
+  .message {
+    font-size: 16px;
+  }
+  .cover {
+    width: 100%;
+    height: fit-content;
+  }
+  .btn-back {
+    color: var(--alert-color);
+    text-decoration: underline;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+  }
+}
