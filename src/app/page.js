@@ -5,7 +5,11 @@ import db from "../../prisma/db";
 
 async function getAllPosts(page) {
   try {
-    const posts = await db.post.findMany();
+    const posts = await db.post.findMany({
+      include: {
+        author: true
+      }
+    });
     logger.info("Posts: " + posts)
     return { data: posts, prev: null, next: null}
   } catch (error) {

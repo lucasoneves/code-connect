@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+:root {
+  --alert-color: #81FE88;
+}
+
 body {
   background: linear-gradient(180deg, #0e1112 0%, #00090e 100%);
   margin: 0;
@@ -32,4 +36,32 @@ body {
 .main-link {
   color: #BFFFC3;
   text-decoration: underline;
+}
+
+.wrapper-error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+
+.wrapper-error .title {
+  color: var(--alert-color);
+}
+
+.wrapper-error .message {
+  font-size: 16px;
+}
+
+.wrapper-error .cover {
+  width: 100%;
+  height: fit-content;
+}
+
+.wrapper-error .btn-back {
+  color: var(--alert-color);
+  text-decoration: underline;
+  display: flex;
+  gap: 6px;
+  align-items: center;
 }
