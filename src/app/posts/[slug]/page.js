@@ -33,8 +33,6 @@ async function getPostBySlug(slug) {
 async function PostDetail({ params }) {
   const post = await getPostBySlug(params.slug);
 
-  console.log(post);
-
   return (
     <div className={styles["post-container"]}>
       <h2>{post.title}</h2>
