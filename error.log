@@ -5,3 +5,9 @@
 {"error":{"clientVersion":"5.13.0","name":"PrismaClientValidationError"},"level":"error","message":"Falha ao obter posts"}
 {"error":{"clientVersion":"5.13.0","name":"PrismaClientValidationError"},"level":"error","message":"Falha ao obter posts"}
 {"error":{"clientVersion":"5.13.0","name":"PrismaClientValidationError"},"level":"error","message":"Falha ao obter posts"}
+{"error":{},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"vuejs-para-inicifantes"}
+{"error":{},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"vuejs-para-inasiciantes"}
+{"error":{},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"vuejs-para-iniciantesdf"}
+{"error":{},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"sass-simplificasndo-o-css"}
+{"error":{},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"explorando-flexbox-no-csdsss"}
+{"error":{},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"construindo-spa-e-vuejs"}
