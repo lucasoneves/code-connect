@@ -26,6 +26,11 @@ body {
   min-height: 100vh;
 }
 
+.app-content {
+  display: flex;
+  flex-direction: column;
+}
+
 .posts-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minMax(350px, 1fr));
