@@ -414,3 +414,4 @@
 {"level":"info","message":"Posts: "}
 {"level":"info","message":"Posts: [object Object],[object Object],[object Object]"}
 {"level":"info","message":"Posts: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"}
+{"error":{"clientVersion":"5.13.0","name":"PrismaClientInitializationError"},"level":"error","message":"Falha ao obter posts"}
