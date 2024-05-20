@@ -162,7 +162,7 @@ async function main() {
         create: post
     });
     } catch (error) {
-      console.error(error)
+      console.error("ERROR", error)
     }
 });
   
