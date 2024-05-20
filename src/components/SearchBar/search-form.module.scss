@@ -1,0 +1,37 @@
+.search-form {
+  width: 100%;
+  --bg-color: #171D1F;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 22px;
+
+  input {
+    height: 50px;
+    background-color: var(--bg-color);
+    border: 0;
+    font-size: 20px;
+    font-family: inherit;
+    padding: 0 22px;
+    flex: 2;
+    color: inherit;
+    outline: 0;
+  }
+  button {
+    margin-left: 12px;
+    background-color: var(--alert-color);
+  }
+}
+
+.icon-wrapper {
+  height: 50px;
+  background-color: var(--bg-color);
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.search-icon {
+  background-color: var(--bg-color);
+
+}

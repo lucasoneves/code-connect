@@ -1,7 +1,7 @@
 import { Aside } from '@/components/Aside';
 import { Work_Sans } from 'next/font/google';
 import './globals.css'
-import { SearchSidebar } from '@/components/SearchBar';
+import { SearchForm } from '@/components/SearchBar';
 
 export const metadata = {
   title: "Code Connect",
@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
         <div className='app-container'>
           <Aside />
           <div className='app-content'>
-            <SearchSidebar />
+            <SearchForm />
             {children}
           </div>
         </div>

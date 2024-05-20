@@ -4,4 +4,12 @@
   background: rgb(231, 231, 231);
   border: 0;
   font-family: inherit;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 1;
+  }
 }
