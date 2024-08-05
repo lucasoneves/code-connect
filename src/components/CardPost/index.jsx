@@ -5,33 +5,32 @@ import Link from "next/link";
 
 export const CardPost = ({ post }) => {
   return (
-    <Link href={`/posts/${post.slug}`} className={styles['link']}>
-      <article className={styles["card-post"]}>
-        <header className={styles["header"]}>
-          <figure>
-            <Image
-              src={post.cover}
-              width={450}
-              height={180}
-              alt={post.title}
-              priority={true}
-            />
-          </figure>
-        </header>
-        <div className={styles["wrapper"]}>
-          <section>
-            <h2 className={styles["title"]}>{post.title}</h2>
-            <p className={styles["description"]}>{post.body}</p>
-          </section>
-          <footer className={styles["footer"]}>
-            <Avatar
-              imgSrc={post.author.avatar}
-              name={post.author.username}
-              altImg={post.author.username}
-            />
-          </footer>
-        </div>
-      </article>
-    </Link>
+    <article className={styles["card-post"]}>
+      <header className={styles["header"]}>
+        <figure>
+          <Image
+            src={post.cover}
+            width={450}
+            height={180}
+            alt={post.title}
+            priority={true}
+          />
+        </figure>
+      </header>
+      <div className={styles["wrapper"]}>
+        <section>
+          <h2 className={styles["title"]}>{post.title}</h2>
+          <p className={styles["description"]}>{post.body}</p>
+          <Link className="main-link" href={`/posts/${post.slug}`}>Ver detalhes</Link>
+        </section>
+        <footer className={styles["footer"]}>
+          <Avatar
+            imgSrc={post.author.avatar}
+            name={post.author.username}
+            altImg={post.author.username}
+          />
+        </footer>
+      </div>
+    </article>
   );
 };
