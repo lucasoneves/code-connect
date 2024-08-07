@@ -1,10 +1,10 @@
+"use client";
 import Image from "next/image";
 import { Avatar } from "../Avatar";
 import styles from "./card.module.scss";
 import Link from "next/link";
-import { IconButton } from "../IconButton";
-import { FaRegThumbsUp } from "react-icons/fa";
 import { incrementThumbsUp } from "@/actions";
+import { ThumbsUpButton } from "./ThumbsUpButton";
 
 export const CardPost = ({ post }) => {
 
@@ -32,11 +32,9 @@ export const CardPost = ({ post }) => {
           </Link>
         </section>
         <footer className={styles["footer"]}>
-          <div>
+          <div className={styles['post-likes']}>
             <form action={submitThumbsUp}>
-              <IconButton>
-                <FaRegThumbsUp fill="#888" size={16} />
-              </IconButton>
+              <ThumbsUpButton />
             </form>
             <p>{post.likes}</p>
           </div>

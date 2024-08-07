@@ -30,7 +30,7 @@ async function getAllPosts(page, searchTerm) {
       skip,
       where,
       orderBy:{
-        created_at: "desc"
+        id: "desc"
       },
       include: {
         author: true
