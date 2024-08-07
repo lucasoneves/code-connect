@@ -15,16 +15,20 @@ async function getPostBySlug(slug) {
       },
       where: {
         slug
+      },
+      include: {
+        author: true,
+        comment: true
       }
     })
 
     if (!post) {
       throw new Error(`Post com o slug ${slug} não encotrado`)
     }
-  
+
     const processedContent = await remark().use(html).process(post.markdown);
     const contentHtml = processedContent.toString();
-    
+
     post.markdown = contentHtml;
     return post;
   } catch (error) {
@@ -43,18 +47,20 @@ async function PostDetail({ params }) {
   return (
     <div className={styles["post-container"]}>
       <h2>{post.title}</h2>
-        <Image
-          className={styles['post-cover']}
-          src={post.cover}
-          width={600}
-          height={150}
-          alt={`Capa do post de titulo: ${post.title}`}
-        />
-        <Avatar name={post.author.name} imgSrc={post.author.avatar}  />
+      <Image
+        className={styles['post-cover']}
+        src={post.cover}
+        width={600}
+        height={150}
+        alt={`Capa do post de titulo: ${post.title}`}
+      />
+      <Avatar name={post.author.name} imgSrc={post.author.avatar} />
       <div
         className={styles["post-content"]}
         dangerouslySetInnerHTML={{ __html: post.markdown }}
       ></div>
+      <input type="text" />
+      <button>Enviar</button>
     </div>
   );
 }

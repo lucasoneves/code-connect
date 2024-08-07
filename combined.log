@@ -594,3 +594,17 @@
 {"level":"info","message":"Posts: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"}
 {"level":"info","message":"Posts: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"}
 {"level":"info","message":"Posts: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"}
+{"level":"info","message":"Posts: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"}
+{"level":"info","message":"Posts: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"}
+{"level":"info","message":"Posts: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"}
+{"error":{"clientVersion":"5.13.0","name":"PrismaClientValidationError"},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"construindo-spa-com-vuejs"}
+{"error":{"clientVersion":"5.13.0","name":"PrismaClientValidationError"},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"construindo-spa-com-vuejs"}
+{"level":"info","message":"Posts: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"}
+{"error":{"clientVersion":"5.13.0","name":"PrismaClientValidationError"},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"construindo-spa-com-vuejs"}
+{"error":{"clientVersion":"5.13.0","name":"PrismaClientValidationError"},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"gerenciamento-de-estado-com-redux"}
+{"level":"info","message":"Posts: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"}
+{"error":{"clientVersion":"5.13.0","name":"PrismaClientValidationError"},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"webpack-um-guia-para-iniciantes"}
+{"error":{"clientVersion":"5.13.0","name":"PrismaClientValidationError"},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"angular-primeiros-passos"}
+{"level":"info","message":"Posts: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"}
+{"level":"info","message":"Posts: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"}
+{"level":"info","message":"Posts: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"}
