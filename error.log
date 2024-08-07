@@ -3,3 +3,10 @@
 {"error":{"clientVersion":"5.13.0","name":"PrismaClientInitializationError"},"level":"error","message":"Falha ao obter posts"}
 {"error":{"clientVersion":"5.13.0","name":"PrismaClientInitializationError"},"level":"error","message":"Falha ao obter posts"}
 {"error":{"clientVersion":"5.13.0","name":"PrismaClientInitializationError"},"level":"error","message":"Falha ao obter posts"}
+{"error":{"clientVersion":"5.13.0","name":"PrismaClientInitializationError"},"level":"error","message":"Falha ao obter posts"}
+{"error":{"clientVersion":"5.13.0","name":"PrismaClientValidationError"},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"construindo-spa-com-vuejs"}
+{"error":{"clientVersion":"5.13.0","name":"PrismaClientValidationError"},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"construindo-spa-com-vuejs"}
+{"error":{"clientVersion":"5.13.0","name":"PrismaClientValidationError"},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"construindo-spa-com-vuejs"}
+{"error":{"clientVersion":"5.13.0","name":"PrismaClientValidationError"},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"gerenciamento-de-estado-com-redux"}
+{"error":{"clientVersion":"5.13.0","name":"PrismaClientValidationError"},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"webpack-um-guia-para-iniciantes"}
+{"error":{"clientVersion":"5.13.0","name":"PrismaClientValidationError"},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"angular-primeiros-passos"}
